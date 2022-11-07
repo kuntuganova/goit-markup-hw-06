@@ -461,6 +461,46 @@
             <use href="./images/sprite.svg#icon-close"></use>
           </svg>
         </button>
+        <form action="" class="modal-form">
+          <span class="modal-form-title">Залиште свої дані, ми вам передзвонимо
+          </span>
+          <label for="" class="modal-form-label">
+            <span class="modal-form-label-span">Ім'я</span>
+            <div class="modal-form-input-wrap">
+              <input class="modal-form-input" type="text" name="userName" minlength="2" required>
+              <svg class="icon-modal-form" width="18px" height="18px">
+                <use href="./images/sprite.svg#icon-person-black-18dp"></use>
+              </svg>
+            </div>
+          </label>
+          <label for="" class="modal-form-label">
+            <span class="modal-form-label-span">Телефон</span>
+            <div class="modal-form-input-wrap">
+              <input class="modal-form-input" type="tel" name="userPhoneNumber" required>
+              <svg class="icon-modal-form" width="18px" height="18px">
+                <use href="./images/sprite.svg#icon-phone-black-18dp"></use>
+              </svg>
+            </div>
+          </label>
+          <label for="" class="modal-form-label">
+            <span class="modal-form-label-span">Пошта</span>
+            <div class="modal-form-input-wrap">
+              <input class="modal-form-input" type="email" name="userMail" required>
+              <svg class="icon-modal-form" width="18px" height="18px">
+                <use href="./images/sprite.svg#icon-email-black-18dp"></use>
+              </svg>
+            </div>
+          </label>
+          <label for="" class="modal-form-label">
+            <span class="modal-form-label-span">Коментар</span>
+            <textarea class="modal-form-textarea" name="userComment" placeholder="Введіть текст"></textarea>
+          </label>
+          <input type="checkbox" name="userPolicy" id="checkbox-policy" class="modal-input-checkbox visually-hidden" required>
+            <label for="checkbox-policy" class="modal-checkbox-label">              
+              Погоджуюся з розсилкою та приймаю&nbsp;<a href="" class="modal-checkbox-label-link"> Умови договору</a>
+            </label>            
+            <button type="submit" class="modal-form-btn">Отправить</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
