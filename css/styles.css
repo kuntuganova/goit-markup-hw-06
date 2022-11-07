@@ -565,9 +565,84 @@ body {
   fill: var(--accent-color3);
 }
 
+.footer-subscribe {
+  margin-left: 93px;
+}
+
+.footer-subscribe-title {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer-subscribe-form {
+  display: flex;
+}
+
+.footer-subscribe-input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  outline: 0;
+  background-color: transparent;
+  color: var(--accent-color3);
+  margin-right: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  transition: box-shadow 250ms var(--transition);
+}
+
+.footer-subscribe-input:hover,
+.footer-subscribe-input:focus {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.footer-subscribe-form input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-subscribe-btn {
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  background-color: #2196f3;
+  border: none;
+  border-radius: 4px;
+  padding-left: 28px;
+  padding-right: 28px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--accent-color3);
+}
+
+.footer-subscribe-btn:hover,
+.footer-subscribe-btn:focus {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.footer-subscribe-icon {
+  fill: #ffffff;
+  margin-left: 10px;
+}
+
 .logo {
   margin-right: 93px;
-
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
@@ -589,6 +664,8 @@ body {
   margin-bottom: 10px;
   color: var(--accent-color3);
 }
+
+
 
 /* Portfolio section */
 
