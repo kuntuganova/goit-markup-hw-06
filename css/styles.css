@@ -885,6 +885,7 @@ body {
 .modal-input-checkbox {
   top: 79%;
   left: 43px;
+  border: 2px solid var(--accent-color);
 }
 
 .modal-input-checkbox:checked + .modal-checkbox-label::before {
